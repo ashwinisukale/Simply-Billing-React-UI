@@ -24,7 +24,7 @@ class Table extends Component {
     render() {
         return (
           <div>
-              <table ref="main" />
+              <table className="display dataTable" ref="main" />
           </div>);
     }
 }
